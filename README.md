@@ -1,27 +1,30 @@
 # Portfolio
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.7.
+Requirements:
 
-## Development server
+- Each page should be separated out into a separate component.  In Angular a component can be a whole page or something smaller (like a navbar or footer for example).
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- In order to navigate between pages you will need to use Angular's router.  Routes are basically just links between components. More info can be found in Angular's documentation: https://angular.io/guide/router
 
-## Code scaffolding
+- It's important that each component looks like the screenshots. You can use whatever colors and pictures you want though. If you think something should be structurally changed please let me know first since I am your client.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- The contact form doesn't need to be functional at first. I'll help you set up the back end code to make it work "for real" when the UI work is finished.
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Mockup
 
-## Running unit tests
+The screenshots that show what you're building are in the mockup folder
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Details of each screenshot:
 
-## Running end-to-end tests
+- Home Component: This is the home page
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+- Portfolio List Component: This page shows all your portfolio pieces.
 
-## Further help
+- Portfolio Detail Component: This is what an individual portfolio piece should look like. It could either be it's own page or a pop up modal window.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+- Contact Component: This is the page with your contact form on it
+
+- Navbar Component: This is the navbar component that will live at the top of every page
+
+- Footer Component:  This is the footer that lives at the bottom of every page.
