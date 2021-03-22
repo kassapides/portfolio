@@ -1,0 +1,29 @@
+.home {
+    background-color: #9980FA;  
+    color: white;
+}
+
+.profile-pic {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title {
+    margin: 10px;
+    padding: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, #000 rgba(0, 0, 0, 0.75), black);
+}
